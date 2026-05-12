@@ -1,0 +1,127 @@
+Full stack :
+	1.End to end development is known as full stack development
+	2.full stack includes
+		1.frontend (user can able to interact, no security)
+			Technologies used:
+				1.HTML
+				2.Css
+				3.JavaScript
+				4.Angular
+				5.Reactjs
+
+		2.backend (user unable to interact, provides security )
+			Technologies used:
+				1.java
+				2.python
+				3.nodejs
+				4.DOTNet
+
+		3.databases(used to store the data)
+				1.SQL
+				   1.oracle
+				   2.mysql
+				   3.sqlserver
+				2.NOSQL(lightweight-->uses less memory)
+				   1.mongodb
+				   2.cassendra
+				   3.chromeDB
+
+		4.Deployment(making application live)
+				1.AWS
+				2.microsoft Azure
+				3.google cloud console
+				4.netlify
+				5.Heroku
+				6.vercel
+
+		5.Ai/Gen-AI Integration (Adding AI to Full stack)
+			1)chatgpt
+			2)claude AI
+			3)perplexity AI
+
+
+=============================================================================================================================================================================================GIT
+	
+
+Repositories are also called as code collaborations tools
+	Ex: 	GitHub
+		GitLab
+		SVM
+		Bitbucket
+		CVS
+Git is the tool used to interact with GitHub
+
+(DEV1)
+
+	1.git_init
+	2.git_config --global user.name "Gurramadithya"
+	3.git_config --global user.email "gurramadithya45@gmail.com"
+	4.git add .\
+	5.git commit -m"Task completed"
+
+	# local repo -> remote repo
+
+	1.git remote add origin
+	2.git push -u origin master
+
+(DEV 2)
+
+	1.git config --global user.name "Gurramadithya"
+	2.git config --flobal user.email "https://github.com/Gurramadithya/batch28.git "
+	3.git add .
+	4.git commit -m "done"
+	5.git push
+
+(DEV 1)
+	1.git pull
+	2.git add .
+	3.git commit -m "done"
+	4.git push
+
+========================================================================================================================================================================================== HTML
+
+HTML (Hyper text markup language)
+Html used to develop stastic web pages
+2 types of web application
+	1.Static Web application
+		-> Content fixed irrespective of location
+			ex: W3 schools , tutorial points....
+	2.Dynamic web application
+		-> content where is based on location
+			ex: swiggy,zomato ,rapido,ola,uber
+
+4.The latest version is HTML5.x
+5.HTML released by "Tim Berners lee"
+6.html is "tag based" markup language
+
+	EX: <table></table>
+		<p>
+		<hr>
+
+7.There are 2 types of Tag's
+	
+	1) Paired Tag / container tag's
+	
+		=> it contains both opening and closing tags
+			ex: <html></html>
+			    <head></head>
+			    <body></body>
+	
+	2) unpaired Tag / non-container tag's
+
+		=> it contains only opening tag
+			ex: <pr> , <hr> , <img>, <br>
+
+8. Each Tag is enclosed with <> Tags , closed tag contains forward slash</>
+9. combination of opening tag, content, closing tag is called HTML element
+10. Html elemets are also called ad building block of web pages
+
+		         <p> HYDERABAD </P>
+	
+		 opening tag -> content -> closing tag
+
+11. what are the differences between HTML & HTML 5?
+1> HTML5 has released new Elements Technically called as Semantic Elements
+	2> Semantic elements increase application readability
+	3)
+ 
