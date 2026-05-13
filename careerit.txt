@@ -123,5 +123,66 @@ Html used to develop stastic web pages
 11. what are the differences between HTML & HTML 5?
 1> HTML5 has released new Elements Technically called as Semantic Elements
 	2> Semantic elements increase application readability
-	3)
- 
+
+======================================================================================================================================================================================================================
+WEB SOCKET=============
+
+1) web socket api used to develop chat applications
+2) web socket api available in html5
+
+
+web worker
+1) web worker api used to execute tasks at background with help of java script
+2) web worker api is also released in html 5
+
+storage's
+	html5 supports 2 types of storages
+
+1)local storage
+	when we close the Brower, or open's new tab also data can't be lost
+		EX: cart in e-commerce application
+	
+2)session storage
+	when we close the Brower the browser and open's the new tab data can be lost
+		EX: making payment using credit card in e-commerce application
+
+
+Geo-location API
+  geo-location api is used to identify the location of a particular object
+	EX: latitude & longitude
+  geo-location api is also available in html 5
+
+Drag & Drop API
+	Drag & Drop API is also available in html5
+
+===========================================================================================================
+Structure of web page
+
+DOCTYPE
+ROOT SECTION
+	1.HEAD SECTION
+		Meta data
+	2.BODY SECTION
+		content data
+
+
+
+DOCTYPE Representing html version
+only browser can able to understand the doc type
+below doctype representing html5
+
+		<!DOCTYPE HTML>  -> HTML 5 VERSION
+		<HTML></HTML>    -> ROOT SECTION IN WEB PAGE
+		<HEAD></HEAD>	 -> HEAD SECTION OF WEB PAGE
+		<BODY></BODY>    -> BODY SECTION OF WEB PAGE
+	
+information about web page is called as meta data
+<META> Is the non - paired tag , used to define the metadata
+defined in head section
+EX:author
+	  description
+	  version
+we will define main content under the body section of web page
+EX: info
+tables
+paragraphs
