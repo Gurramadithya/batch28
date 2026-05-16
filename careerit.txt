@@ -186,3 +186,109 @@ we will define main content under the body section of web page
 EX: info
 tables
 paragraphs
+===================================================================================================
+Attributes
+
+Attributes enhances html element functionality
+attributes applicable to only opening tag
+attributes are key & value pair's
+key & value are separated by using (=)
+key & value pair's are separated by using space
+
+	<p color="blue" background-color="red"> career IT </p>
+
+IDE Stands for Integrated development Environment
+ide's are used to build the applications
+ex: vs code , ecilipse , PyCharm
+VS CODE (vs code is recommended ide to build web applications)
+vs code provided by Microsoft and open source ide
+Extension of html page:
+	1).html / .htm
+	2).css
+	3).js
+
+web browser are used to execute the html , css , js
+
+css stands for cascading style sheet
+css used to apply styles to web pages
+current version is css3.x
+ java script is the scripting language
+used to develop the dynamic web pages (adding functionality)
+java script released by "Netscape"
+current version is Es13 (ES-> ECMA  script)
+ECMA (European company manufacturing academy )
+
+what are the differences between library and framework?
+
+LIBRARY	FRAME WORK
+1.lib contains predefined code developed by vendors	1.it also contains predefined code developed by vendors
+2.EX: React , jQuery	2.ex: bootstrap , Angular
+3. no rules	3. we must follow rules and regulations
+4.lib is cheaper in budget	4. framework is costly in budget
+5.lib has more audience	5.frame work has less audience
+6.used to build small & medium scale applications	6.used to  build large scale web applications
+	
+
+
+================================================================================================================
+headings
+
+html supports 6 type of headings
+<h1></h1>.......<h6></h6>
+h1 is the large heading
+h6 is the small headings
+
+================================================================================================================
+External style sheet
+
+<link>  Tag is used to include external style sheets
+link tag is a non paired tag
+link tag supports to attributes
+	1.relation = "stylesheet"
+	2.href = " filename.css"
+	<link rel="Stylesheet" href ="filename.css">
+
+Grouping selectors
+ applying styles to more than 1 elements at a time is known as grouping selectors
+	h1,p,table,form{
+}
+
+Block level- Elements
+	Each element starts with new line and occupies 100% width
+	EX: headings , paragraphs
+in-line elements
+	not starts with new line and occupies only required width
+	Ex: images , buttons , anchor elements
+
+converting from block level to in-line elements
+	display : line-block;
+inline to block
+	display : block;
+
+
+padding
+	Space around the content is known as padding      padding top, p
+-bottom,p-left,p-right
+	EX: padding : 20px
+
+margin
+	space around the html element is known as margin	margin-top,m-bottom,m-left,m-right
+	ex: margin :20px;
+
+border
+	adding border around the html element
+	ex: border : 20px solid : red;
+	
+box-model in CSS
+	
+	the combination of margin , border and padding
+
+	margin
+	border
+	padding
+	content
+
+
+paragraph
+
+<p></p> is used to display 
